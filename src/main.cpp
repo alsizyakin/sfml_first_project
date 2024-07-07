@@ -49,7 +49,7 @@ int main() {
         sprite_scale.setOrigin(377, 377);
 
         // sprite.setColor(Color(255,0,0,180));
-        //sprite_scale.move(377, 377);
+        sprite_scale.move(194, 194);
         // sprite.rotate(45);
         sprite_scale.setScale(0.5f, 0.5f);
         // Отрисовка спрайта
@@ -70,7 +70,7 @@ int main() {
         convex.setOutlineThickness(4.f);
         convex.setOutlineColor(sf::Color(10, 180, 230, 155));
         // Теперь сдвинем его вниз и чуть-чуть вправо
-        convex.move(377, 377);
+        convex.move(194, 194);
         convex.rotate(cursor_angle);
         // Отрисовка многоугольника
         window.draw(convex);
@@ -107,7 +107,7 @@ int main() {
                           100 * !static_cast<bool>(j == tail_length - 1),
                           250 / tail_length * j));
 
-            sprite_arrow.move(377, 377);
+            sprite_arrow.move(194, 194);
             sprite_arrow.rotate(tail[i] - 100);
             sprite_arrow.setScale(0.5f, 0.5f);
             // Отрисовка спрайта
